@@ -1,0 +1,53 @@
+@import '../Global.scss';
+
+footer{
+    @include size(100%, 150px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    background: $color4;
+
+    .container-footer{
+        @include size(100%, 100px);
+        display: flex;
+        flex-direction: row;
+
+        .text-footer{
+            @include size(50%, 100px);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            p{
+                @include font-Roboto(12px);
+                color: white;
+                letter-spacing: 2px;
+            }
+        }
+
+        .social-networks-container {
+            @include size(50%, 100px);
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+
+            .social-networks {
+                @include size(15%, 100px);
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                a {
+                    text-decoration:none;
+                    @include font-Roboto(16px);
+                    color: white;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+  
+
+  
+  }
