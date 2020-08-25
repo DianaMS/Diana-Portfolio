@@ -1,7 +1,7 @@
 @import '../Global.scss';
 
 footer{
-    @include size(100%, 150px);
+    @include size(100%, 100px);
     display: flex;
     flex-direction: column;
     justify-content: center;
