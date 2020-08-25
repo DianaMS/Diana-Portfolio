@@ -6,7 +6,7 @@ import '../assets/styles/components/Skills.scss';
 const Skills = () => (
   <section className='container-skills'>
     <section className='title'>
-      <p className='title-skills'>COMPETENCIAS</p>
+      <p className='title-skills'>HERRAMIENTAS</p>
     </section>
     <section className='items'>
       {data.skills.map((e, index) => {
@@ -18,9 +18,6 @@ const Skills = () => (
           />
         );
       })}
-    </section>
-    <section className='title'>
-      <p className='title-skills'>COMPETENCIAS TÉCNICAS</p>
     </section>
   </section>
 );
