@@ -15,13 +15,13 @@ const Contact = () => (
       </div>
       <div className='text-contact'>
         <FontAwesomeIcon icon={faEnvelope} />
-        <p className='email-contact'>dmartinez@uni.pe</p>
+        <p className='email-contact'>dmartinezs@uni.pe</p>
       </div>
       <div className='social-contact'>
         <FontAwesomeIcon className='react-font' icon={faGithub} />
         <FontAwesomeIcon className='react-font' icon={faLinkedinIn} />
       </div>
-      <img src='https://user-images.githubusercontent.com/60928490/91123290-1a42f280-e662-11ea-8aa6-308d94400fde.png' alt='' />
+      <img src='https://user-images.githubusercontent.com/60928490/91222050-3edfae80-e6e4-11ea-99ba-d0d81f9de0e2.png' alt='' />
     </div>
   </section>
 
