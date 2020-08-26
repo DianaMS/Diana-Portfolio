@@ -118,6 +118,10 @@ export default {
     'image': 'https://user-images.githubusercontent.com/60928490/91102375-a9ceae00-e62e-11ea-8985-136d868b7467.png',
   },
   {
+    'name': 'Jest',
+    'image': 'https://user-images.githubusercontent.com/60928490/91368003-8db54300-e7cd-11ea-90cd-5ef93f5d4849.png',
+  },
+  {
     'name': 'ESLINT',
     'image': 'https://user-images.githubusercontent.com/60928490/91102383-ac310800-e62e-11ea-9fb3-2727326e355a.png',
   },
