@@ -11,8 +11,16 @@
     top: 0;
     z-index:2;
     box-shadow: 0px 3px 3px 0px rgba(0,0,0,0.75);
+    @include mobile-screen() {
+        @include size(100vw, 50px);
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
     .option{
         @include font-Roboto(12px);
         color: $color7;
+
     }
 }
