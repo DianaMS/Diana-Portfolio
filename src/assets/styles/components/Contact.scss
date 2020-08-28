@@ -44,12 +44,15 @@
             align-items: center;
             @include font-Roboto(28px);
             margin-top: 10px;
-            
-            .react-font{
-                margin-left: 10px;
-                margin-right: 10px;
-                margin-bottom: 30px;
+            a {
+                text-decoration:none;
+                .react-font{
+                    margin-left: 10px;
+                    margin-right: 10px;
+                    margin-bottom: 30px;
+                }
             }
+
         }
         
     }
