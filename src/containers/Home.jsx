@@ -18,10 +18,16 @@ const Home = () => (
       <section className='container-description'>
         <section className='aboutme'>
           <div className='content'>
-            <h2 className='hello'>Hola Soy Diana</h2>
-            <h3 className='slogan'>mi Slogan</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            <p>¡ Hacerlo con pasión o nada !</p>
+            <h2 className='hello'>Hola Soy Diana!</h2>
+            <h3 className='slogan'>"Las personas vibran diferente cuando hacen lo que aman"</h3>
+            <p className='works'>
+              FrontEnd Developer Junior, me apasionan las aplicaciones digitales y disfruto creando interfaces gráficas. Tengo un background
+              en Ingeniería Electrónica y Automatización de procesos, una carrera que ayudó a desafiar mi mente, de hecho no me he limitado
+              a seguir aprendiendo y explorar otros campos relacionados a la tecnología, comencé como desarrolladora trabajando en proyectos
+              del lado del cliente y servidor, potenciando cada aprendizaje para próximos desafíos que se presenten y obtener nuevas habilidades
+              y conocimientos. Aspiro a seguir aportando y apostando por la transformación digital.
+            </p>
+            <p className='my-nick'>¡ Hacerlo con pasión o nada !</p>
           </div>
         </section>
         <section className='gallery' />

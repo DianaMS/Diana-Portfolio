@@ -15,6 +15,8 @@ const Projects = () => (
           description={e.description}
           buttonleft={e.buttonleft}
           buttonright={e.buttonright}
+          code={e.code}
+          deploy={e.deploy}
         />
       );
     })}
